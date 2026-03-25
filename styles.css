@@ -1,0 +1,109 @@
+:root {
+    --bg: #121212;
+    --surface: #1E1E1E;
+    --primary: #86fccb;
+    --text: #e414d2;
+    --text-secondary: #B0B0B0;
+}
+
+body {
+    padding-top: 70px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: #111111 !important;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0 80px;
+}
+
+.accent {
+    color: var(--primary);
+}
+
+section {
+    padding: 70px 0;
+}
+
+.badge {
+    font-size: 0.75rem;
+    margin: 2px;
+    padding: 5px 8px;
+}
+
+.card {
+    background: var(--surface);
+    border: none;
+    color: var(--text);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.card h5 {
+    min-height: 48px; /* keeps all titles same height */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* max 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.section-title {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.bg-surface {
+    background: var(--surface);
+}
+
+footer {
+    background: #1A1A1A;
+    color: var(--text-secondary);
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+section {
+    padding: 50px 15px;
+}
+
+p {
+    font-size: 0.95rem;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+}
+
+.hero {
+    padding: 60px 15px;
+}
+
+a {
+    text-decoration: none;
+}
